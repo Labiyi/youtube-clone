@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-image: url(../images/264.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titletext{
+    font-size: 4rem;
+    color: whitesmoke;
+    text-transform: lowercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container{
+    width: 80vw;
+    height: 100vh;
+    background: white;
+}
+
+.box{
+    width: 50%;
+    height: 40%;
+    background-color: white;
+    border-style: double;
+    border-color: black;
+}

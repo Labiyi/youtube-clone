@@ -1,0 +1,214 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+}
+
+
+.nav{
+    background-color: rgb(15, 15, 15);
+    width: 100%;
+    padding: 15px;
+}
+
+.nav a{
+    margin-left: 20px;
+    text-decoration: none;
+    padding: 11px;
+    color: white;
+}
+
+.nav a:hover{
+    background-color: blue;
+    color: burlywood;
+}
+
+header{
+    background: rgb(22, 22, 22);
+    color: white;
+    width: 100%;
+    height: 100vh;
+}
+
+.head-text{
+    padding: 20% 0 0 0;
+    font-size: 3em;
+    word-spacing: 10px;
+    line-height: 1.4em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.highlight{
+    color: #e31b6d;
+}
+
+.text-btn{
+    padding: 12px 50px 12px 20px;
+    text-decoration: none;
+}
+
+.button{
+    border: 2px solid #fff;
+    margin: 6px;
+    padding: 5px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.img{
+    border: 1px solid transparent;
+    border-radius: 455px;
+    height: 250px;
+}
+
+.section{
+    width: 100%;
+    height: 100vh;
+    padding: 0% 9% 9%;
+    text-align: center;
+    line-height: 2em;
+}
+
+.portfolio{
+    background: rgb(230, 228, 228); 
+    width: 100%;
+    line-height: 3em;
+    position: relative;
+    padding: 0% 9% 9%;
+}
+
+#contact{
+    background: rgb(22, 22, 22);
+    color: white;
+    line-height: 2em;
+}
+
+#send-mail{
+    margin: 3em auto 5em auto;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 1em;
+    padding: 1.3em 1em;
+    text-decoration: none;
+}
+
+
+.social-links-container{
+    display: table;
+    margin: 0 auto; 
+}
+
+#social-links{
+    font-family: "brandon-grotesque", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+#social-links li{
+    float: left;
+    padding: 1.25em 0;
+    margin: 9px;
+}
+
+#social-links a{
+    font-size: 0.8125em;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 auto;
+    line-height: 2em;
+    border: 2px solid transparent;
+    text-align: center;
+    border-radius: 4px;
+    position: relative;
+    padding: 0.5em 1em 0.5em 3em;
+}
+
+#social-links a:hover{
+    background: #e31b6d;
+    color: #fff;
+}
+
+.heading{
+    padding: 85px 0px 55px;
+    letter-spacing: 20px;
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.text{
+    font-size: 2em;
+    text-align: center;
+    line-height: 1.4em;
+    padding: 0 10%;
+    margin-top: 1em;
+}
+
+.footer{
+    background-color: rgb(15, 15, 15);
+    width: 100%;
+    height: 25vh;
+    padding:  5% 0% 5%;
+    text-align: center;
+    line-height: 2em;
+}
+
+#copy {
+    font-size: 0.875em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #cccccc;
+    color: rgba(255, 255, 255, 0.2); 
+}
+
+#copy a {
+    color: #e31b6d;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+
+.follow-links {
+    display: table;
+    margin: 1em auto 0 auto; 
+}
+
+.follow-links li{
+    float: left;
+    margin: 9px;
+}
+
+#follow-links a {
+    background: rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    border: 2px solid transparent;
+    display: block;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.2);
+    padding: 0.5em 1em 0.5em 3em;
+    line-height: 2em;
+    font-size: 0.75em;
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: none;
+    position: relative;
+}
+
+#follow-links #follow-twitter a:hover {
+    background: #00aced;
+    color: #fff; 
+}
+  
+
+#follow-links #follow-facebook a:hover {
+    background: #dd3174;
+    color: #fff; 
+}
+
