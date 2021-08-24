@@ -29,18 +29,22 @@ body{
 
 .header-middle{
     display: flex;
-    border: 1px solid #ddd;
-    height: 35px;
     margin: 0;
     padding: 0;
 }
 
+.mic{
+    height: 35px;
+    border-radius: 30px;
+    border: 1px solid #ddd;
+}
+
 .header-middle input{
     width: 500px;
-    padding: 10px;
+    height: 40px;
     margin: 0;
     border-radius: 0;
-    border: none;
+    border: 1px solid #ddd;
 }
 
 .header-middle button{
@@ -48,7 +52,8 @@ body{
     margin: 0;
     border: none;
     border-radius: 0;
-    height: 100%;  
+    height: 40px;  
+    width: 50px;
 }
 /* 02% */
 /* main body */
@@ -95,19 +100,49 @@ body{
 }
 
 hr{
-    height: 1px;
-    border: none;
-    background-color: #e5e5e5;
+    border: 1px solid #e5e5e5;    
 }
 
 /* videos */
 .videos{
-    background-color: #f8f7f7;
+    background-color: #f7f7f7;
     width: 100%;
     height: 100%;
     overflow-y: scroll;
     border-top: 1px solid #ddd;
     padding: 15px 15px;
+}
+
+.suggestion{
+    padding: .5rem 1rem;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.suggest-section{
+    display: flex;
+    overflow: hidden;
+}
+
+.suggest{
+    margin-right: 1rem;
+    word-wrap: none;
+    white-space: nowrap;
+    border: 1px solid #ccc;
+    border-radius: 900px;
+    padding: .5rem 1rem;
+    font-size: inherit;
+    cursor: pointer;
+    background-color: #e7e7e7;
+}
+
+.suggest.active{
+    color: white;
+    border-color: #eee;
+    background-color: #606060;
+}
+
+.suggest:last-child{
+    margin-right: 0;
 }
 
 h1{
@@ -201,7 +236,7 @@ h1{
 
     .show-sidebar{
         display: inline;
-        position: fixed;
+        position: relative;
         top: 4.4rem;
         height: auto;
     }
@@ -212,3 +247,14 @@ h1{
         width: 300px;
     }
 }
+
+/* @media (max-width: 2560px){
+    .sidebar{
+        display: inline;
+    }
+
+    .show-sidebar{
+        display: inline;
+        position: relative;
+    }
+} */
